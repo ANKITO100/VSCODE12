@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Instagram Login Link</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, #fdf497 0%, #fdbb2d 25%, #d6249f 50%, #285AEB 75%, #833ab4 100%);
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+
+  .container {
+    background: rgba(255 255 255 / 0.15);
+    border-radius: 16px;
+    padding: 48px 64px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+    text-align: center;
+    backdrop-filter: blur(15px);
+  }
+
+  .logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 32px;
+    letter-spacing: 0.05em;
+  }
+
+  .btn-login {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #405de6;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 36px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 6px 14px rgba(64, 93, 230, 0.6);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
+  }
+
+  .btn-login:hover,
+  .btn-login:focus {
+    background: #5851db;
+    box-shadow: 0 10px 20px rgba(64, 93, 230, 0.75);
+    outline: none;
+  }
+
+  .material-icons {
+    font-size: 24px;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .btn-login:hover .material-icons {
+    transform: translateX(4px);
+  }
+
+  p {
+    margin-top: 32px;
+    font-size: 14px;
+    color: rgba(255 255 255 / 0.8);
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Instagram login link page">
+    <div class="logo" aria-hidden="true">Instagram</div>
+    <h1>Access Instagram Login</h1>
+    <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer" class="btn-login" aria-label="Go to Instagram login page">
+      Login to Instagram
+      <span class="material-icons" aria-hidden="true">arrow_forward</span>
+    </a>
+    <p>Click above to open Instagram official login page in a new tab.</p>
+  </div>
+</body>
+</html>
+
